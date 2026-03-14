@@ -1,9 +1,12 @@
 # SIEM + ML Anomaly Detection (Rocket Telemetry)
 
-This project implements an end-to-end SIEM-style telemetry monitoring and machine learning anomaly detection system using Elasticsearch, Kibana, and an Isolation Forest model.
+This project implements an end-to-end SIEM-style telemetry monitoring and anomaly detection system using Elasticsearch, Kibana, and machine learning. The platform ingests simulated rocket launch telemetry and network signals, processes high-volume log data, and visualizes system behavior through monitoring dashboards.
 
-It simulates rocket launch telemetry and detects abnormal behavior across system and network signals.
+An Isolation Forest model is used to detect anomalous behavioral patterns across system and network metrics, enabling identification of abnormal or potentially malicious activity. The system simulates real-world detection engineering and security operations workflows, including log analysis, alert generation, and anomaly investigation.
 
+The project demonstrates capabilities in detection engineering, log analysis, machine learning–based anomaly detection, and scalable monitoring, with continuous tuning of detection logic to improve alert accuracy and actionable insights.
+
+Technologies: Elasticsearch, Kibana, Python, AWS, Scikit-learn, Isolation Forest, SIEM Monitoring, Telemetry Simulation, 
 ---
 
 ## Problem Statement
@@ -81,10 +84,4 @@ rocket-telemetry-ml*
 Filter anomalies:
 
 ml_anomaly : true
-Technologies Used
-Python
-Elasticsearch
-Kibana
-Scikit-Learn
-Pandas
 
