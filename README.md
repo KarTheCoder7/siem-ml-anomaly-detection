@@ -6,7 +6,7 @@ An Isolation Forest model is used to detect anomalous behavioral patterns across
 
 The project demonstrates capabilities in detection engineering, log analysis, machine learning–based anomaly detection, and scalable monitoring, with continuous tuning of detection logic to improve alert accuracy and actionable insights.
 
-Technologies: Elasticsearch, Kibana, Python, AWS, Scikit-learn, Isolation Forest, SIEM Monitoring, Telemetry Simulation, 
+Technologies: **Elasticsearch, Kibana, Python, AWS, Scikit-learn, Isolation Forest, SIEM Monitoring, Telemetry Simulation, **
 ---
 
 ## Problem Statement
