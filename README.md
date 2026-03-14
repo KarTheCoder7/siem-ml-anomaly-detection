@@ -59,3 +59,32 @@ Clone repository
 ```bash
 git clone https://github.com/<your-username>/siem-ml-anomaly-detection.git
 cd siem-ml-anomaly-detection
+Create virtual environment
+
+python3 -m venv .venv
+source .venv/bin/activate
+Install dependencies
+
+pip install -r requirements.txt
+Running the System
+Start telemetry generator
+
+python rocket_telemetry_sender.py
+Run anomaly detection
+
+python train_isolation_forest.py
+Viewing Results
+Open Kibana and create data views:
+
+rocket-telemetry*
+rocket-telemetry-ml*
+Filter anomalies:
+
+ml_anomaly : true
+Technologies Used
+Python
+Elasticsearch
+Kibana
+Scikit-Learn
+Pandas
+
